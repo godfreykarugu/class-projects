@@ -1,0 +1,156 @@
+#hero,#portifolio {
+    background-image: linear-gradient(160deg,#34ebc3,#7f3f91);
+    border: 1px #7f3f91 solid;
+}
+
+#clients,#testimonials {
+    background: #747171;
+}
+
+.pic-title{
+    display: flex;
+
+}
+
+.c-img {
+    /* filter: brightness(0.1); */
+    filter: grayscale(100);
+}
+.c-img:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+.icon {
+    height: 48px;
+    width: 48px;
+    background: blue;
+    /* float: center; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.icon i{
+    font-size: 24px;
+    color: rgb(234, 230, 230);
+}
+
+.s-card {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: transform 0.5s;
+    background-image: linear-gradient(160deg,#758798,#987647);
+    
+}
+.s-card:hover{
+    transform: translateY(20px);
+    background: white;
+}
+
+.card {
+    overflow: wrap;
+}
+
+.m-15{
+    margin-left: 75px;
+}
+
+.row ul {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.row ul li i{
+    margin-right: 10px;
+    color: rgb(7, 7, 218);
+    font-size: 24px;
+}
+
+.location {
+    filter: grayscale(100%);
+}
+
+.location:hover {
+    filter: grayscale(0);
+}
+
+.contact-form {
+    /* background: #758798; */
+    border-radius: 10px;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+
+.box {
+    /* box-shadow: 10px 10px 0 0 #000; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: transform 0.5s;
+}
+
+.box:hover{
+    transform: translateY(10px);
+}
+
+.contact .info i:hover {
+    background: #34ebc3;
+    border-radius: 50%;
+} 
+
+.form-group {
+    padding: 15px;
+}
+
+.footer {
+    background: #171717;
+    border-bottom: 1px solid white;
+    /* border-radius: 10px; */
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.social .bi{
+    font-size: 24px;
+    width: 55px;
+    height: 45px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+    transition: transform 0.4s;
+
+}
+.social .bi:hover{
+    background: #747171;
+    color: #7f3f91;
+    cursor: pointer;
+    transform: translateY(10px);
+    border-radius: 50%;
+}
+
+.owner {
+    background: #000;
+}
+
+.about img{
+    border-radius: 10px;
+}
+
+.rights{
+    padding-left: 70px;
+}
