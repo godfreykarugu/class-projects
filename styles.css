@@ -1,0 +1,98 @@
+* {
+    /* font-family: montserrat; */
+}
+
+body{
+    background: #f1fbff;
+}
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 150px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-size: 18px;
+} 
+
+.navbar-brand{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.services .card-body i{
+    font-size: 50px;
+}
+
+
+.team .card-body i{
+    font-size: 20px;
+}
+
+.portfolio .card, .team .card, form,.contact-left{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.7);
+}
+
+.call i {
+    float: left;
+    font-size: 32px;
+    padding-right: 25px;
+    width: 45px;
+    height: 40px;
+    background: #f1fbff;
+}
+
+.call i:hover {
+   cursor: pointer;
+}
+
+@media only screen  and  (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 100px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        list-style: 1.6;
+        font-size: 12px;
+    }
+
+}
+    
