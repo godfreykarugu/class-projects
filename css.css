@@ -1,0 +1,156 @@
+/* body{
+    background: #f1fbff;
+} */
+
+body{
+    background: #a1e3ff;
+}
+
+
+.space-padding{
+    padding: 100px 0;
+}
+
+/* .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    bottom: 300px;
+    z-index: 2;
+
+} */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 150px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+  font-size: 72px;
+  letter-spacing: 2px;
+}
+
+.carousel-caption p{
+    width: 60%;
+   font-size: 28px;
+   margin: auto;
+   line-height: 2;
+}
+
+
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.about img{
+    border-radius: 10px;
+}
+
+#services p {
+    width: 60%;
+    margin: auto;
+}
+
+.services .card i{
+    font-size: 50px;
+}
+
+.social i{
+    font-size: 24px;
+    padding-left: 5px;
+    filter: grayscale(100%);
+    transition: transform 0,5s;
+}
+
+.social i:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: translateY(10px);
+    color: aquamarine;
+
+}
+
+.call i{
+    font-size: 24px;
+    float: left;
+    padding-right: 15px;
+}
+
+form {
+    padding-left: 70px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px
+        rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.testimonials img{
+    width: 42px;
+    border-radius: 50%;
+    float: left;
+    /* padding-right: 15px; */
+    margin-right: 15px;
+}
